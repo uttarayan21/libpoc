@@ -7,6 +7,6 @@ edition = "2021"
 
 [dependencies]
 img-parts = "0.3.0"
-libraw_r = { git = "https://github.com/aftershootco/libraw-rs", version = "0.4.2", features = ["jpeg"] }
+libraw_r = { version = "0.4.3", features = ["jpeg"], registry = "ktra" }
 log = "0.4.17"
 thiserror = "1.0.37"
